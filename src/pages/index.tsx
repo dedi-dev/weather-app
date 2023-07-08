@@ -74,8 +74,7 @@ export default function Home({
   const testAPI = () => {
     const options = {
       method: "GET",
-      url: "https://api.geoapify.com/v1/geocode/autocomplete?text=jaka&apiKey=36e2d0902a984014ab7945d505cc1929",
-      // https://api.geoapify.com/v1/geocode/reverse?lat=-6.325940&lon=107.385437&apiKey=36e2d0902a984014ab7945d505cc1929
+      url: "https://api.weatherapi.com/v1/search.json?key=cac7ff432fbb4ca986321136230807&q=karawang",
       // https://api.weatherapi.com/v1/forecast.json?key=cac7ff432fbb4ca986321136230807&q=paris&days=3
     };
 
